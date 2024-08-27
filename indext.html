@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RedX</title>
-
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .Lato-font {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="Lato-font">
     <header>
         <!-- navbar section -->
         <nav class="flex justify-between py-4 px-12">
@@ -19,19 +28,27 @@
                 <h3 class="text-[#EB2127] font-normal text-xl pl-2">09610007339</h3>
             </div>
             <div>
-                <button class="ml-2">Enterprise</button>
-                <button class="ml-2">Pricing plan</button>
+                <button>Enterprise</button>
+                <button class="ml-3">Pricing plan</button>
                 <button
-                    class="text-base bg-white text-red-500 font-semibold py-3 px-5 rounded-lg border-2 border-red-300 hover:bg-red-100 ml-2">Log in</button>
+                    class="text-base bg-white text-red-500 font-semibold py-3 px-5 rounded-lg border-2 border-red-300 hover:bg-red-100 ml-3">Log
+                    in</button>
                 <button
-                    class="text-base bg-red-600 text-white font-semibold py-3 px-4 rounded-lg border-2 border-red-300 hover:bg-red-500 ml-2">Sign up</button>
+                    class="text-base bg-red-600 text-white font-semibold py-3 px-4 rounded-xl border-2 border-red-300 hover:bg-red-500 ml-2">Sign
+                    up</button>
             </div>
         </nav>
-
-        <!-- banner Section -->
-         <div>
-            <img src="images/logistics-as-a-service.webp" alt="">
-         </div>
+        <!-- banner section -->
+        <div class="hero min-h-screen  bg-[url(images/hcorporate-7.jpg)]">
+            <div class="text-left ml-10	translate-y-40">
+                <h1 class="text-white text-5xl font-bold mb-5">Bangladesh's <span
+                        class="text-red-600 text-5xl font-bold ">Largest</span></h1>
+                <h1 class="text-white text-5xl font-bold mb-5">Logistics Network</h1>
+                <p class="text-white text-lg font-normal mb-8">Delivering Parcels Across 64 Districts in Just 3 Days with
+                    24/7 Support and Next-Day Payment, All at the Lowest Rates</p>
+                <button class="text-base font-normal bg-red-600 hover:bg-red-500 text-white px-5 py-3 rounded-md">Become a merchant</button>
+            </div>
+        </div>
     </header>
 </body>
 
