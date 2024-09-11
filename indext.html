@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RedX</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -40,7 +42,7 @@
         </nav>
         <!-- banner section -->
         <div class="hero min-h-screen bg-no-repeat bg-[url(images/web-banner.jpg)]">
-            <div class="text-left ml-10	translate-y-40">
+            <div class="text-left -translate-x-40">
                 <h1 class="text-white text-5xl font-bold mb-5">Bangladesh's <span
                         class="text-red-600 text-5xl font-bold ">Largest</span></h1>
                 <h1 class="text-white text-5xl font-bold mb-5">Logistics Network</h1>
@@ -227,7 +229,7 @@
             </div>
         </div>
         <!-- Delivery calculator section -->
-         <div>
+        <div>
             <div class="text-center">
                 <h3 class="text-[#1A1A1A] text-4xl font-bold mb-5">Delivery calculator</h3>
                 <p class="text-[#424242] text-base font-normal">Plan your shipments with ease as you estimate delivery
@@ -237,29 +239,98 @@
             <div class="flex justify-center gap-14 mt-14">
                 <div>
                     <h3 class="mb-2">Weight ( Upto 10kg )</h3>
-                    <input type="text" placeholder="Enter Weight" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mb-8">
-    
+                    <input type="text" placeholder="Enter Weight"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mb-8">
+
                     <h3 class="mb-2">Pickup Area</h3>
-                    <input type="text" placeholder="Select pickup area" class="w-96 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 ">
+                    <input type="text" placeholder="Select pickup area"
+                        class="w-96 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 ">
                 </div>
                 <div>
                     <h3 class="mb-2">Selling price of the product</h3>
-                    <input type="text" placeholder="Enter selling price the product" class="w-96 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mb-8">
-    
+                    <input type="text" placeholder="Enter selling price the product"
+                        class="w-96 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 mb-8">
+
                     <h3 class="mb-2">Delivery Area</h3>
-                    <input type="text" placeholder="Select delivery area" class="w-96 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 ">  
+                    <input type="text" placeholder="Select delivery area"
+                        class="w-96 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 ">
                 </div>
             </div>
 
             <div class="text-center mt-16 mb-28">
-                <button class="text-white text-base font-normal bg-red-600 px-10 py-4 rounded-md hover:bg-red-500 mb-8">Calculate price</button>
+                <button
+                    class="text-white text-base font-normal bg-red-600 px-10 py-4 rounded-md hover:bg-red-500 mb-8">Calculate
+                    price</button>
 
-                <h3 class="text-base font-normal ">Want to know how much it will cost to send a parcel to any location? <br> Check our <span class="text-base font-normal text-red-600 ">detailed list</span></h3>
+                <h3 class="text-base font-normal ">Want to know how much it will cost to send a parcel to any location?
+                    <br> Check our <span class="text-base font-normal text-red-600 ">detailed list</span>
+                </h3>
             </div>
         </div>
-            
 
- 
+        <!-- Clients Love section -->
+
+        <!--  Slides  -->
+
+
+
+        <!-- Questions answer section -->
+        <div>
+            <div class="text-center mb-12">
+                <h3 class="text-[#1A1A1A] text-5xl font-bold mb-4">Still have questions? We have answers!</h3>
+                <p class="text-[#424242] text-lg font-normal">Take a look at the most commonly asked questions. We are
+                    here to help.</p>
+            </div>
+
+            <div class="translate-x-1/3">
+                <div tabindex="0" class="collapse collapse-plus   w-1/3 ">
+                    <div class="collapse-title text-xl font-bold ">What is REDX?</div>
+                    <div class="collapse-content">
+                        <p>REDX is a tech-based logistics company operating nationwide and offering end-to-end services
+                            like
+                            parcel deliveries for SMEs, documents and parcel couriers for individuals and enterprise
+                            logistics solutions for corporate companies</p>
+                    </div>
+                </div>
+
+                <div tabindex="0" class="collapse collapse-plus  w-1/3 ">
+                    <div class="collapse-title text-xl font-bold">What kind of services does REDX offer?</div>
+                    <div class="collapse-content">
+                        <p>REDX is a complete platform for end-to-end delivery and logistics services for any business
+                            or
+                            personal needs. The services include parcel delivery, bulk shipment, line hall, truck
+                            rental,
+                            loading-unloading, warehouse, logistics services and customized solutions as required.</p>
+                    </div>
+                </div>
+
+                <div tabindex="0" class="collapse collapse-plus  w-1/3 ">
+                    <div class="collapse-title text-xl font-bold">What is the coverage area of ​​REDX Delivery?</div>
+                    <div class="collapse-content">
+                        <p>REDX delivers to all 64 districts of Bangladesh. Click the link to see the full list of REDX
+                            delivery areas. Contact your nearest REDX Hub to book delivery today. Click here to see the
+                            full
+                            list of REDX Hubs.</p>
+                    </div>
+                </div>
+
+                <div tabindex="0" class="collapse collapse-plus  w-1/3 ">
+                    <div class="collapse-title text-xl font-bold">Want to know about your delivery and logistics
+                        charges?
+                    </div>
+                    <div class="collapse-content">
+                        <p>Our delivery charge is designed according to the weight of the parcel. Charges start from Tk
+                            69 per kg inside Dhaka, Tk 115 around Dhaka and Tk 150 outside Dhaka. 1% cash on delivery
+                            charge is applicable for every delivery near and outside Dhaka. See our Home Delivery and
+                            Hub Delivery Price Chart for personal parcel shipping charges. For enterprise logistics,
+                            contact our sales team. You can also call at 0910006339 for more information. Please note
+                            that delivery charges may vary depending on weight and location. Click on the link to know
+                            more about this and learn more about our price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 </body>
 
