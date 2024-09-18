@@ -88,53 +88,32 @@
     </header>
 
     <main>
-        <!-- Sign up Section -->
-        <hr class="h-0.5 bg-gray-300 ">
-
-        <div class="xl:flex lg:flex md:flex sm:flex">
-            <div class="xl:w-1/2 xl:bg-slate-100 lg:bg-slate-100 md:bg-slate-100 sm:bg-slate-100">
-                <div class="xl:w-1/2 xl:mx-[25%] xl:my-[18%] max-sm:mx-4">
-                    <h3 class="text-[#1A1A1A] text-3xl font-bold mb-5 max-sm:mt-10">Sign up as a merchant</h3>
-                    <h5 class="text-[#424242] text-base font-normal mb-3">Merchant name</h5>
-                    <input type="text" placeholder="Enter merchant mane"
-                        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mb-5">
-
-                    <h5 class="text-[#424242] text-base font-normal mb-3">Shop name</h5>
-                    <input type="text" placeholder="Enter shop name"
-                        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mb-5">
-
-                    <h5 class="text-[#424242] text-base font-normal mb-3">Phone number</h5>
-                    <input type="tel" placeholder="Enter phone number"
-                        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mb-5">
-
-                    <div class="flex  space-x-3">
-                        <input type="checkbox" id="checkbox"
-                            class="form-checkbox h-5 w-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
-                        <label for="checkbox" class="text-gray-700 ">By continuing, I confirm that I have read and agree
-                            to REDX's <span class="text-red-600">Terms & Conditions </span></label>
-                    </div>
-
-                    <button type="submit"
-                        class="w-full bg-red-600 text-white py-2 px-4 rounded-md shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 mt-7 mb-5">
-                        Sign up
-                    </button>
-                    <a href="http://127.0.0.1:5500/login.html" class="text-red-500 font-bold"><span class="text-[#424242] text-base font-normal mr-2">Already have an account?</span>Log in</a>
-                </div>
-            </div>
-
-            <!-- 2nd part -->
-            <div>
-                <div class="w-1/2 mx-[25%] my-[20%] max-sm:hidden">
-                    <img src="images/parcel-tracking.png">
-
-                    <div class="text-center mt-5">
-                        <h3 class="text-[#1A1A1A] text-2xl font-bold mb-3">Track your parcels</h3>
-                        <p>Get your live parcel update in every step of the way till it gets delivered</p>
-                    </div>
-                </div>
+        <!-- Courier banner section -->
+        <div class="hero  min-h-screen  bg-[url(images/banner.jpg)]">
+            <div class="xl:-translate-x-80">
+                <h1 class="text-[#1A1A1A] text-5xl max-sm:text-4xl font-bold leading-normal">Use REDX Courier for <br>
+                    the fastest nationwide <br> delivery!</h1>
+                <button class="text-base font-normal bg-red-600 hover:bg-red-500 text-white px-5 py-3  mt-16  ">Explore
+                    booth locations > </button>
             </div>
         </div>
+
+        <!-- Courier Track Section -->
+        <div class=" ">
+            <div class="xl:flex lg:flex md:flex sm:flex justify-around bg-black xl:h-32 items-center max-sm:p-5">
+                <h3 class="text-white text-base font-normal max-sm:text-center max-sm:mb-5">Your courier is right on track! Check it now with our online tracking service</h3>
+                <div class="flex">
+                    <input type="text" placeholder="Enter Parcel ID" class="input input-bordered rounded-r-none w-full  " />
+                    <button class="btn bg-red-600 text-white rounded-l-none ">Track</button>
+                </div>
+
+            </div>
+        </div>
+
+
     </main>
+
+
 
 </body>
 
