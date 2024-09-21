@@ -25,40 +25,37 @@
         <!-- small device navbar -->
         <nav class="sm:hidden lg:hidden md:hidden xl:hidden 2xl:hidden">
             <div class="flex justify-between">
-                <img class="pr-8" src="images/new-redx-logo.svg" alt="">
-                <button class="btn" onclick="my_modal_3.showModal()"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                </button>
-
+                <div>
+                    <a href="indext.html">
+                        <img class="pr-8" src="images/new-redx-logo.svg">
+                    </a>
+                </div>
+                <div>
+                    <button class="btn" onclick="my_modal_3.showModal()"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-
             <dialog id="my_modal_3" class="modal">
                 <div class="modal-box">
                     <form method="dialog">
                         <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <div class="flex justify-between py-4 px-14">
-                        <div class="flex items-center">
-                            <img class="pr-8" src="images/new-redx-logo.svg" alt="">
-                            <img src="images/phone-call-outlined.svg" alt="">
-                            <h3 class="text-[#EB2127] font-normal text-xl pl-2">09610007339</h3>
+                    <div class=" py-2 ">
+                        <img class="w-20" src="images/new-redx-logo.svg" alt="">
+                        <div class="flex items-center gap-1 mt-10">
+                            <img src="images/phone-call-outlined.svg" class="h-4">
+                            <h3 class="text-[#EB2127]  ">09610007339</h3>
                         </div>
                         <div>
+                            <p class="mb-2 mt-2"><a href="plan.html">Pricing plan</a></p>
 
-                            <button class="ml-3">Pricing plan</button>
-
-                            <a href="http://127.0.0.1:5500/login.html"
-                                class="text-base bg-white text-red-500 font-semibold py-3 px-5 rounded-lg border-2 border-red-300 hover:bg-red-100 ml-3">Log
-                                in</a>
-
-                            <a href="http://127.0.0.1:5500/sign%20up.html"
-                                class="text-base bg-red-600 text-white font-semibold py-3 px-4 rounded-xl border-2 border-red-300 hover:bg-red-500 ml-2">Sign
-                                up</a>
+                            <p><a href="login.html">Log in</a></p>
+                            <p class="mt-2"><a href="sign up.html">Sign up</a></p>
                         </div>
-
                     </div>
                 </div>
             </dialog>
@@ -67,13 +64,16 @@
         <!-- larg device navbar -->
         <nav class="flex justify-between py-5 px-14 max-sm:hidden">
             <div class="flex items-center">
-                <img class="pr-8" src="images/new-redx-logo.svg" alt="">
+                <div>
+                    <a href="indext.html">
+                        <img class="pr-8" src="images/new-redx-logo.svg">
+                    </a>
+                </div>
                 <img src="images/phone-call-outlined.svg" alt="">
                 <h3 class="text-[#EB2127] font-normal text-xl pl-2">09610007339</h3>
             </div>
             <div>
-
-                <button class="ml-3">Pricing plan</button>
+                <a href="plan.html">Pricing plan</a>
 
                 <a href="http://127.0.0.1:5500/login.html"
                     class="text-base bg-white text-red-500 font-semibold py-3 px-5 rounded-lg border-2 border-red-300 hover:bg-red-100 ml-3">Log
@@ -83,7 +83,6 @@
                     class="text-base bg-red-600 text-white font-semibold py-3 px-4 rounded-xl border-2 border-red-300 hover:bg-red-500 ml-2">Sign
                     up</a>
             </div>
-
         </nav>
         <!-- banner section -->
         <div class="hero  min-h-screen  bg-[url(images/banner-bg.webp)]">
@@ -91,7 +90,8 @@
                 <h1 class="text-white text-5xl max-sm:text-4xl font-bold leading-normal mb-5">Bangladesh's <span
                         class="text-red-600 text-5xl max-sm:text-4xl font-bold ">Largest</span> <br> <span
                         class="text-white text-5xl max-sm:text-4xl font-bold ">Logistics Network</span></h1>
-                <p class="text-white text-lg font-normal mb-10">Delivering Parcels Across 64 Districts in Just 3 Days with 24/7 Support and Next-Day Payment, All at the Lowest Rates</p>
+                <p class="text-white text-lg font-normal mb-10">Delivering Parcels Across 64 Districts in Just 3 Days
+                    with 24/7 Support and Next-Day Payment, All at the Lowest Rates</p>
                 <!-- <button  class="text-base font-normal bg-red-600 hover:bg-red-500 text-white px-5 py-3 rounded-md max-sm:w-full">Become
                     a merchant</button> -->
 
@@ -219,7 +219,8 @@
 
         <!-- Logistics partner section -->
         <div>
-            <h1 class="text-[#1A1A1A] font-bold text-5xl text-center mb-20 mt-32">Choose REDX as your logistics partner</h1>
+            <h1 class="text-[#1A1A1A] font-bold text-5xl text-center mb-20 mt-32">Choose REDX as your logistics partner
+            </h1>
 
             <div class="lg:grid xl:grid md:grid sm:grid grid-cols-12 gap-6 xl:mx-16 max-sm:mx-5 mb-36 ">
 
@@ -509,7 +510,9 @@
                 <!-- <button
                     class="text-white text-base font-normal bg-red-600 px-10 py-4 rounded-md hover:bg-red-500 max-sm:w-full">Sign
                     up now</button> -->
-                    <a href="http://127.0.0.1:5500/sign%20up.html" class="text-white text-base font-normal bg-red-600 px-10 py-4 rounded-md hover:bg-red-500 max-sm:w-full">Sign up now</a>
+                <a href="http://127.0.0.1:5500/sign%20up.html"
+                    class="text-white text-base font-normal bg-red-600 px-10 py-4 rounded-md hover:bg-red-500 max-sm:w-full">Sign
+                    up now</a>
             </div>
         </div>
 
@@ -578,9 +581,9 @@
             <div>
                 <h3 class="text-[#1A1A1A] text-lg font-bold mb-5">Important links</h3>
                 <div class="grid">
-                    <a href="http://127.0.0.1:5500/courier.html" class="mb-3">Courier</a>
-                    <a href="" class="mb-3">Coverage Area</a>
-                    <a href="http://127.0.0.1:5500/policy.html" class="mb-3">Privacy Policy</a>
+                    <a href="courier.html" class="mb-3">Courier</a>
+                    <a href="plan.html" class="mb-3">Coverage Area</a>
+                    <a href="policy.html" class="mb-3">Privacy Policy</a>
                 </div>
             </div>
 
